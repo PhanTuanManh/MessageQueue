@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         MessageQueue queue = new MessageQueue();
@@ -26,7 +27,7 @@ public class Main {
                     break;
                 case "4":
                     scanner.close();
-                    return;
+                    System.exit(0);
                 default:
                     System.out.println("Invalid input. Please try again.");
             }
